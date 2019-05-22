@@ -26,8 +26,8 @@ const baiduSearch = async function(word) {
 
 //百度地图转经纬度
 //http://api.map.baidu.com/geocoder/v2/?address=北京市海淀区上地十街10号&output=json&ak=您的ak //坐标转换
-const ak = '6C2mOWkZI39nah40pjmX9LLDoy6NdL1i';
-const sk = 'MGT7GQm3wVaD8tGHwoQRXb7mFehfCXk5';
+const ak = 'yourak';
+const sk = 'yoursk';
 const baiduMap2Geo = async function(pName) {
   const builder = new HttpBuilder();
   builder.method('GET');
